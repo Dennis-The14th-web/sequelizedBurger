@@ -1,0 +1,29 @@
+{
+  "name": "sequelizedburger",
+  "version": "1.0.0",
+  "description": "sequelized properties",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Dennis-The14th-web/sequelizedBurger.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Dennis-The14th-web/sequelizedBurger/issues"
+  },
+  "homepage": "https://github.com/Dennis-The14th-web/sequelizedBurger#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "express-handlebars": "^3.1.0",
+    "handlebars": "^4.5.3",
+    "method-override": "^3.0.0",
+    "mysql2": "^2.0.1",
+    "sequelize": "^5.21.2"
+  }
+}
